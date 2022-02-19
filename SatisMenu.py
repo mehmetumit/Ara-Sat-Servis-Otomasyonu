@@ -79,7 +79,7 @@ class SatisMenu(AracMenu):
         self.notebook.add(self.arac_cesitleri_tab, text="Araç Çeşitleri")
         self.notebook.pack(expand=True, fill="both")
         
-        self.satis_window.iconbitmap("./logo.ico")
+        #self.satis_window.iconbitmap("./logo.ico")
         self.satis_window.config(bg=self.bg)
         self.satis_window.minsize(self.min_window_width,self.min_window_height)
         

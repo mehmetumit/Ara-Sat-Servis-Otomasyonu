@@ -77,7 +77,7 @@ class ServisMenu(AracMenu):
         self.notebook.add(self.servis_gormusler_tab,text="Servis İşlemi Görmüş Araçlar")
         self.notebook.pack(expand=True, fill="both")#***************
         
-        self.servis_window.iconbitmap("./logo.ico")
+        #self.servis_window.iconbitmap("./logo.ico")
         self.servis_window.config(background=self.bg)
         
         self.servistekiler_label = Label(self.servistekiler_tab, 

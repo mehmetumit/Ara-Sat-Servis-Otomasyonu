@@ -14,7 +14,7 @@ class KayıtYapDialog:
         self.window.minsize(1024,900)
         self.window.geometry(self.window_size)
         self.window.title("Admin Paneli")
-        self.window.iconbitmap("./logo.ico")
+        # self.window.iconbitmap("./logo.ico")
         self.veri_tabanina_baglan()
         
         self.window.config(background=self.bg)
